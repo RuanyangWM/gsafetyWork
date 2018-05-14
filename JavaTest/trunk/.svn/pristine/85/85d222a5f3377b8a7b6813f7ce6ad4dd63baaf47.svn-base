@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class OddAndEven {
+    /**
+    判断输入数x是奇数还是偶数
+     */
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);//控制台输入一个整数；
+        int x=sc.nextInt();
+        if(x%2==0){
+            System.out.println("该输入数X为：偶数");
+        }else {
+            System.out.println("该输入数X为：奇数");
+        }
+    }
+}

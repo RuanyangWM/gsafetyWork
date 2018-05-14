@@ -1,0 +1,89 @@
+# 第十六章-反射
+
+## 本章知识点
+
+- Java反射机制，可以在程序中访问已经装载到JVM中的JAVA对象的描述；
+
+- 通过反射可以访问的主要描述信息，如：getPackage(),getName(),getConstructors()等；包路径，类名称，继承类，实现接口，构造方法，方法，成员变量，内部类等
+
+## 学习内容
+
+### 访问构造方法
+
+- getConstructors()/getDeclaredConstructor()
+
+  - 访问入口参数为String，int型的构造方法：
+  > getDeclaredConstructor(String.class,int.class);  
+  > getDeclaredConstructor(new Class{String.class,int.class});
+
+- getModifiers()获取修饰符信息
+
+  - 判断constructor对象是否被private修饰：
+  > int modifiers=constructor.getModifiers();  
+  > boolean isE=Modifiers.isPrivate(modifiers);
+
+### 访问成员变量
+
+- 通过Filed对象的getFileds()/getFiled(Sting name)..操作相应的成员变量
+
+- Filed类常用方法：getName()/getType()/get(obj)/set(obj)等
+
+### 访问方法
+
+- Method对象可以操纵一下方法：getMethod()/getDeclaredMtehods()等
+
+- Method类中提供常用方法：getName()/getParameterTypes()/getReturnType()等
+
+### 使用Annotation功能
+
+- 用于类、构造方法、成员变量、方法、参数等声明中，不会对程序运行产生影响
+
+> public @interface NoMemberAnnotation{}  
+> public @interface OneMemberAnnotation{}
+
+## 学习目标
+
+- 掌握并运用Java反射机制，完成章节练习题；
+
+![Image Text](unit-16.jpg)
+
+# 第十七章 枚举类型与泛型
+
+## 本章知识点
+
+- 掌握枚举类型：使用枚举设置常量
+
+- 掌握泛型：向上转型，向下转型；定义泛型；常规用法等
+
+## 学习内容
+
+### 枚举设置常量
+
+- 以往常量设置采用接口定义，但常量不能被修改；采用枚举设置常量时类型更安全，可以任意传递参数
+
+- 操作枚举类型成员的方法：values()/value()/compareTo()/ordinal();
+
+- 枚举类型中构造方法必须是private修饰
+
+- **枚举的优势：**
+  - 类型安全
+  - 紧凑有效的数据定义
+  - 可以和程序其他部分完美交互
+  - 运行效率高
+
+### 泛型
+
+- 了解泛型的定义，泛型的常用规范
+
+- **泛型的总结：**
+
+  - 泛型的类型参数只能是类类型，不可以是简单类型，如A<int>这种泛型定义是错误的
+  - 泛型的类型个数可以是多个
+  - 可以使用extends关键字限制泛型的类型
+  - 可以使用通配符限制泛型的类型
+
+## 学习目标
+
+- 掌握并运用枚举、泛型
+- 完成章节作业
+- ![Image Text](unit-17.jpg)
