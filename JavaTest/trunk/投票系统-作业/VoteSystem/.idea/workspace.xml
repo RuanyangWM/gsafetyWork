@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1cc37e85-7df3-4920-9adb-7062fc97d266" name="Default" comment="" />
+    <list default="true" readonly="true" id="d0d36a87-2eb0-4ccd-8fce-d6ba79d4c836" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Method1" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/Method1/Method1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method1/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/Method1/src/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method1/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method1/src/VoteTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method2" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/Method2/Method2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method2/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/Method2/src/DemoVote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DemoVote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VoteTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,23 +28,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VoteTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VoteTest.java">
+      <file leaf-file-name="VoteTest1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Method1/src/VoteTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="178" column="27" lean-forward="true" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="class#1993:2381" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoVote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DemoVote.java">
+      <file leaf-file-name="DemoVote.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Method2/src/DemoVote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1308">
-              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            <state relative-caret-position="314">
+              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#4038#4039#0" expanded="true" />
+                <element signature="e#4067#4068#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,17 +64,31 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Student</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Person</replace>
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/VoteTest.java" />
+        <option value="$PROJECT_DIR$/src/VoteTest1.java" />
         <option value="$PROJECT_DIR$/src/DemoVote.java" />
+        <option value="$PROJECT_DIR$/src/VoteTest.java" />
+        <option value="$PROJECT_DIR$/Method1/src/DemoVote.java" />
+        <option value="$PROJECT_DIR$/Method2/src/MyException.java" />
+        <option value="$PROJECT_DIR$/Method2/src/Person.java" />
+        <option value="$PROJECT_DIR$/Method2/src/VoteTest1.java" />
+        <option value="$PROJECT_DIR$/Method1/src/VoteTest1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-230" />
-    <option name="y" value="46" />
+    <option name="x" value="5" />
+    <option name="y" value="36" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
@@ -61,6 +97,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,17 +109,40 @@
             <path>
               <item name="VoteSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="VoteSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Method1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VoteSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VoteSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Method1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VoteSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VoteSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Method2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VoteSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VoteSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Method2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VoteSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VoteSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Method2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DemoVote.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../work-day/day01/Helloworld" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -97,20 +158,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoVote (1)">
-    <configuration name="DemoVote (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DemoVote" />
-      <module name="VoteSystem" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.VoteTest1">
     <configuration name="DemoVote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo014.DemoVote" />
-      <module name="VoteSystem" />
+      <option name="MAIN_CLASS_NAME" value="DemoVote" />
+      <module name="Method2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="VoteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VoteTest" />
-      <module name="VoteSystem" />
+    <configuration name="VoteTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VoteTest1" />
+      <module name="Method1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -125,15 +181,13 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.VoteTest" />
+      <item itemvalue="Application.VoteTest1" />
       <item itemvalue="Application.DemoVote" />
-      <item itemvalue="Application.DemoVote (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoVote (1)" />
+        <item itemvalue="Application.VoteTest1" />
         <item itemvalue="Application.DemoVote" />
-        <item itemvalue="Application.VoteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,20 +199,28 @@
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统-作业\VoteSystem" />
-          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统-作业\VoteSystem" />
+          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem" />
+          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem" />
         </SvnCopyRootSimple>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统-作业\VoteSystem\.idea" />
-          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统-作业\VoteSystem\.idea" />
+          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem\.idea" />
+          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem\Method1" />
+          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem\Method1" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem\Method2" />
+          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem\Method2" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统-作业\VoteSystem" />
-          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统-作业\VoteSystem" />
+          <option name="myVcsRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem" />
+          <option name="myCopyRoot" value="E:\SafetyWorkspace\JavaStudy\JavaTest\trunk\投票系统--作业\VoteSystem" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -166,14 +228,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34991974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5361156" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -183,78 +246,138 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905295" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified：投票系统功能修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified：投票系统功能修改" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/VoteTest.java">
+    <entry file="file://$PROJECT_DIR$/Method1/src/VoteTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="1577">
+          <caret line="83" column="68" lean-forward="true" selection-start-line="83" selection-start-column="68" selection-end-line="83" selection-end-column="68" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="class#1993:2381" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoVote.java">
+    <entry file="file://$PROJECT_DIR$/Method1/src/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VoteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="228">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoVote.java">
+    <entry file="file://$PROJECT_DIR$/Method2/src/DemoVote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VoteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="2964">
+          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#4038#4039#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoVote.java">
+    <entry file="file://$PROJECT_DIR$/Method1/src/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoVote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="38">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VoteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="178" column="27" lean-forward="true" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="27" />
+        <state relative-caret-position="133">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Method1/src/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Method1/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Method1/src/VoteTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="class#1993:2381" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Method2/src/DemoVote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#4038#4039#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
           </folding>
         </state>
       </provider>

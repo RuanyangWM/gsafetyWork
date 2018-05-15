@@ -15,9 +15,8 @@
 
 import java.io.*;
 /**
- * 先把轮子造好，再干大家伙
- * 是一个工具类，用于数据输入；
- * @author R
+ * 功能描述：有一个班采用民主投票方法推选班长，班长候选人共4位，每个人姓名及代号分别为张三 1，李四 2，王五 3，刘六 4。
+ * 程序操作员将每张选票上所填的代号（1、2、3、或4）循环输入电脑，输入数字0结束输入，然后将所有候选人的得票情况显示出来，并显示最终当选者的信息。
  *
  */
 class InputMyData{
@@ -53,11 +52,11 @@ class InputMyData{
     }
 
 };
-class Student implements Comparable<Student>{
+class Person implements Comparable<Person>{
     private int stuNo;
     private String name;
     private int vote;
-    public Student(int stuNo,String name,int vote){
+    public Person(int stuNo, String name, int vote){
         this.stuNo=stuNo;
         this.name=name;
         this.vote=vote;
@@ -82,7 +81,7 @@ class Student implements Comparable<Student>{
     }
     //实现比较方法
     @Override
-    public int compareTo(Student o) {//按大--》小排序
+    public int compareTo(Person o) {//按大--》小排序
         if(this.vote<o.vote){
             return 1;//
         }else if(this.vote>o.vote){
@@ -95,10 +94,10 @@ class Student implements Comparable<Student>{
 };
 
 class Operate{
-    private Student stu[]={new Student(1,"张三",0),
-            new Student(2,"李四",0),
-            new Student(3,"王五",0),
-            new Student(4,"赵六",0)};
+    private Person stu[]={new Person(1,"张三",0),
+            new Person(2,"李四",0),
+            new Person(3,"王五",0),
+            new Person(4,"刘六",0)};
     private boolean flag=true;
     public Operate(){
         this.printInfo();
