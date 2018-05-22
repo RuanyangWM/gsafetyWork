@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*根据id的名称来控制样式和布局*/
+#calculator{
+    position: relative;                         /*定位计算器*/
+    margin: 50px auto;                          /*设置外边距，浏览器自动计算*/
+    width: 260px;                               /*宽度*/
+    height: 420px;                              /*长度*/
+    border: 1px solid gray;                   /*边框的样式：边宽、样式、颜色*/
+    -webkit-border-radius: 10px;                /*圆角属性  兼容苹果、谷歌等浏览器*/
+    -moz-border-radius: 10px;                   /*圆角属性  兼容火狐浏览器*/
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 4px gray;     /*阴影效果*/
+    -moz-box-shadow: 2px 2px 4px gray;
+    box-shadow: 2px 2px 4px gray;
+    behavior:url("ie-css3.htc");                /*IE8-*/
+}
+
+/*table表的样式*/
+#calculator_table{
+    position: relative;
+    margin: 10px auto;
+    border-collapse:separate;
+    border-spacing:10px 20px;
+}
+
+/*小标题的样式*/
+h3{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+/*table表里面td标签的样式*/
+#calculator_table td{
+    width: 50px;
+    height: 30px;
+    border: 1px solid gray;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    behavior:url("ie-css3.htc");  /*IE8-*/
+}
+
+/*table里面input标签的样式*/
+#calculator_table td input{
+    direction: rtl;
+    font-size: 16px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: white;
+}
+
+/*不同的按钮，用不同的颜色来装饰*/
+input.btn_color1{
+    background-color: green;
+}
+
+input.btn_color2{
+    background-color: #132315;
+}
+
+input.btn_color3{
+    background-color: #43207d;
+}
+
+input.btn_color4{
+    background-color: seagreen;
+}
+
+input:active{
+     -webkit-box-shadow: 3px 3px 3px gray;
+     -moz-box-shadow: 3px 3px 3px gray;
+     box-shadow: 3px 3px 3px gray;
+     behavior:url("ie-css3.htc");  /*IE8-*/
+ }
